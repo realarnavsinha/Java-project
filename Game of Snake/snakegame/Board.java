@@ -44,14 +44,14 @@ public class Board extends JPanel implements ActionListener {
     }
 
     public void loadImages() {
-       ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("snakegame/icons/fruit.png"));
-        apple = i1.getImage();
+       ImageIcon img1 = new ImageIcon(ClassLoader.getSystemResource("snakegame/icons/fruit.png"));
+        apple = img1.getImage();
         
-        ImageIcon i2 = new ImageIcon(ClassLoader.getSystemResource("snakegame/icons/dot.png"));
-        dot = i2.getImage();
+        ImageIcon img2 = new ImageIcon(ClassLoader.getSystemResource("snakegame/icons/dot.png"));
+        dot = img2.getImage();
         
-        ImageIcon i3 = new ImageIcon(ClassLoader.getSystemResource("snakegame/icons/head.png"));
-        head = i3.getImage();
+        ImageIcon img3 = new ImageIcon(ClassLoader.getSystemResource("snakegame/icons/head.png"));
+        head = img3.getImage();
     }
 
     public void initGame() {
